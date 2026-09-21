@@ -44,15 +44,15 @@ function Dashboard() {
         challansResponse,
       ] = await Promise.all([
         axios.get(
-          "http://127.0.0.1:5000/api/customers",
+          "https://mini-erp-crm-3-24mk.onrender.com/api/customers",
           config
         ),
         axios.get(
-          "http://127.0.0.1:5000/api/products",
+          "http://mini-erp-crm-3-24mk.onrender.com/api/products",
           config
         ),
         axios.get(
-          "http://127.0.0.1:5000/api/challans",
+          "https://mini-erp-crm-3-24mk.onrender.com/api/challans",
           config
         ),
       ]);

@@ -18,7 +18,7 @@ function Login() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:5000/api/auth/login",
+        "http://mini-erp-crm-3-24mk.onrender.com/api/auth/login",
         {
           email,
           password,
