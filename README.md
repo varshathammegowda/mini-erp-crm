@@ -241,6 +241,12 @@ Production environment variables should be configured through the hosting platfo
 The core ERP & CRM functionality has been implemented. The next stage is **GitHub setup, production configuration, deployment, and final testing**.
 
 ---
+## 🚀 Live Demo
+
+- 🌐 **Frontend:** https://mini-erp-crm-virid.vercel.app/
+- ⚙️ **Backend API:** https://mini-erp-crm-3-24mk.onrender.com
+
+  
 
 ## 📄 License
 
