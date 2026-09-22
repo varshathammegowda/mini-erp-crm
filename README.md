@@ -73,7 +73,7 @@ MINI-ERP-CRM/
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR-GITHUB-REPOSITORY-URL>
+git clone <GITHUB-REPOSITORY-URL>
 cd MINI-ERP-CRM
 ```
 
@@ -98,18 +98,6 @@ npm install
 Create a `.env` file inside the backend folder.
 
 Add the required database and authentication configuration used by the backend.
-
-Example:
-
-```env
-DATABASE_URL=your_postgresql_connection_string
-JWT_SECRET=your_secret_key
-PORT=5000
-```
-
-**Do not upload your `.env` file to GitHub.**
-
-Make sure `.env` is included in `.gitignore`.
 
 ## ▶️ Running the Application
 
